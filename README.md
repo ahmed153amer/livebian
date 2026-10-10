@@ -8,7 +8,7 @@ Livebian is a Linux distribution based on [Debian GNU/Linux 13 (trixie)](https:/
 
 ## Why?
 
-Livebian is designed for PCs that don't have an internal drive (such as an HDD, SSD, NVMe drive, or eMMC storage). It runs directly from external or removable media, including:
+Livebian is designed for users to test/use live system, and also for PCs that don't have an internal drive (such as an HDD, SSD, NVMe drive, or eMMC storage). It runs directly from external or removable media, including:
 
 * CD-ROM
 * USB drive
@@ -33,7 +33,7 @@ Livebian has eight variants:
 ## Project Details
 
 * **Last Built:** Thursday, October 8, 2026, 12:00:26 PM EEST
-* **Last Updated:** Friday, October 9, 2026, 10:40:51 AM EEST
+* **Last Updated:** Saturday, October 10, 2026 10:43:00 PM EEST
 * **Build System:** [live-build](https://manpages.debian.org/testing/live-build/live-build.7.en.html)
 * **live-build Version:** `20250505+deb13u1`
 * **Base System:** [Debian GNU/Linux 13 (trixie)](https://www.debian.org/releases/trixie/)
