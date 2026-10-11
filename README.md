@@ -59,4 +59,31 @@ VERSION_CODENAME=trixie
 CODENAME=trixie
 LOGO=livebian
 ```
-To get the ISO, please go to the <a href="https://sites.google.com/view/livebian/downloads">Downloads Page</a>
+To get the ISO, please Use the <a href="https://github.com/ahmed153amer/livebian/blob/main/build.sh">build.sh</a> Script.
+# How to use the `build.sh` file?
+to get started, download the script <a href="https://github.com/ahmed153amer/livebian/blob/main/build.sh">build.sh</a>.
+Next, type in your terminal: 
+```bash
+cd path/to/build.sh
+```
+to Direct you to the folder where the `build.sh` is available.
+next to build your Variant, use: 
+```bash
+./build.sh all
+```
+to build all the variants. (**NOTE**: You must make sure that your storage is 90GiB Free, Make sure that `live-build` is installed.)
+to Build a **SINGLE** variant, use: 
+```bash
+./build.sh xfce
+```
+to build the Xfce Variant.
+(To choose which variant you want to build, there are 7 variants which is: Xfce, LXQt, GNOME, KDE, Budgie, Pantheon, and COSMIC.)
+to see the help, just type ONLY: 
+```bash
+./build.sh
+```
+to show the help.
+
+# Why is Livebian no longer Open-source?
+because the project is heavy, of **80GB** size of the entire folders, and files.
+so you should use `./build.sh` instead.
